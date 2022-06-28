@@ -1,0 +1,24 @@
+<Configuration ID="629d9b37-9ec8-468e-9577-e5fbf040294f">
+  <Add OfficeClientEdition="64" Channel="Current" Version="16.0.15225.20288">
+    <Product ID="O365BusinessRetail">
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="TenantId" Value="a93a11e6-4f54-4b40-8fde-48fe412684ec" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <User Key="software\microsoft\office\16.0\common\general" Name="skydrivesigninoption" Value="0" Type="REG_DWORD" App="office16" Id="L_ShowSkyDriveSignIn" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="FALSE" />
+</Configuration>
